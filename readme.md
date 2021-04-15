@@ -1,0 +1,11 @@
+- Dividir la pantalla en 4 (2x2) y crear en cada sección diferentes grillas pero con propiedades  distintas
+    - 1: grilla de 5x6 con display inline-block
+    - 2: grilla de 5x6 con propiedad flex
+    - 3: grilla de 5x6 con propiedad grid
+    - 4: grilla de 3x2 con positions absolutes en cada celda
+    - La celdas impares con texto centrado vertical y horizontalmente
+    - las celdas pares con texto alineado verticalmente y centrado horizontalemnte
+    - Las celdas multiplo de 3 de color rojo
+    - Aplicar media query para que cuando sea menor a 600px la pantalla muestre las 4 grillas una abajo de otra ocupando toda la pantalla.
+    - Cambiar el color cada grilla al hacer mouse hover
+- El ejercicio anterior agregar sass con variables y mixing

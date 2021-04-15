@@ -1,0 +1,125 @@
+body {
+    background: #E9ECF4;
+    color: #000;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #E9ECF4;
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#box1 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#box1 div {
+    border: 2px solid black;
+    width: 19%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 16.6%;
+    display: inline-block;
+}
+
+#box2 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box2 div {
+    border: 2px solid black;
+    width: 16%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 16.6%;
+    margin: 2px;
+    padding: 2px;
+}
+
+#box3 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#box3 div {
+    border: 2px solid black;
+    margin: 1px;
+}
+
+#box4 {
+    position: relative;
+}
+
+.celda {
+    width: 30%;
+    height: 48.9%;
+    background: #aaa;
+    border-radius: 2px solid black;
+    position: absolute;
+}
+
+#uno {
+    top: 0%;
+}
+
+#dos {
+    top: 50%;
+}
+
+#tres {
+    top: 50%;
+    left: 64%;
+}
+
+#cuatro {
+    top: 50%;
+    left: 33.4%;
+}
+
+#cinco {
+    top: 0;
+    left: 33.4%;
+}
+
+#seis {
+    top: 0%;
+    left: 64%;
+}
+
+div:nth-child(odd) {
+    text-align: center;
+}
+
+div:nth-child(even) {
+    text-align: center;
+}
+
+div:nth-child(3n+3) {
+    background-color: red;
+}
+
+.box div:nth-child(1n+1):hover {
+    background: rgb(137, 137, 228);
+}
